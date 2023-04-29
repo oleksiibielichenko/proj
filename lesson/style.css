@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: aliceblue;
+    padding: 16px;
+    align-items: flex-end;
+}
+
+.header__logo {
+    width: 64px;
+}
+
+.header__input {
+    background: inherit;
+    border: none;
+    border-bottom: 1px solid magenta;
+    padding:4px 8px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
